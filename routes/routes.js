@@ -13,8 +13,14 @@ var appRouter = function (app) {
     app.get("/fluid/api/v1/search/:title/:index", function (req, res) {
         const url = `https://4anime.to/?s=${req.params.title.toLowerCase().replace(" ", "+")}`;
         const index = req.params.index;
-        const episode = req.params.episode;
         anime.getTitle(url, index, res);
+    });
+
+    app.get("/fluid/api/v1/search/:title/:index/episodes/:episode", function (req, res) {
+        const url = `https://4anime.to/?s=${req.params.title.toLowerCase().replace(" ", "+")}`;
+        const index = req.params.index;
+        const episode = req.params.episode;
+        anime.getEpisode(url, index, episode, res);
     });
 }
 
