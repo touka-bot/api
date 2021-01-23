@@ -10,9 +10,11 @@ var appRouter = function (app) {
         anime.getSearchResults(url, res);
     });
 
-    app.get("/fluid/api/v1/search/:title/episodes/:episode", function (req, res) {
+    app.get("/fluid/api/v1/search/:title/:index", function (req, res) {
         const url = `https://4anime.to/?s=${req.params.title.toLowerCase().replace(" ", "+")}`;
-        anime.getSearchResults(url, res);
+        const index = req.params.index;
+        const episode = req.params.episode;
+        anime.getTitle(url, index, res);
     });
 }
 
