@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 const cors = require('cors');
 var app = express();
 
-let whitelist = ['https://touka-bot.github.com/']
+let whitelist = ['http://client.4c3711.xyz/']
 
 app.use(cors({
     origin: function (origin, callback) {
