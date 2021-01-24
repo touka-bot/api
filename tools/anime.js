@@ -1,5 +1,4 @@
 const jsdom = require("jsdom");
-const fs = require('fs');
 const got = require('got');
 const utils = require("./utils");
 const getUrls = require('get-urls');
