@@ -3,16 +3,6 @@ const cors = require('cors');
 
 var appRouter = function (app) {
 
-    var whitelist = ['http://client.4c3711.xyz/']
-    var corsOptions = {
-        origin: function (origin, callback) {
-            if (whitelist.indexOf(origin) !== -1) {
-                callback(null, true)
-            } else {
-                callback(new Error('Not allowed by CORS'))
-            }
-        }
-    }
     app.get("/", function (req, res) {
         res.send("Unofficial 4anime API (v1)");
     });

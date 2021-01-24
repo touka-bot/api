@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 const cors = require('cors');
 var app = express();
 
-var whitelist = ['http://client.4c3711.xyz/']
+var whitelist = ['http://client.4c3711.xyz', '4c3711.xyz']
 var corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
