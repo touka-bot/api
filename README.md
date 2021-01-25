@@ -7,7 +7,7 @@ Unofficial 4anime API.
 All Responses from the API are plain `text` responses.
 
 #### Base URL
-```http://notsetup.yet/fluid/api/v1```
+```http://4c3711.xyz:3000/fluid/api/v1```
 
 ## Get Search Results
 
