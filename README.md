@@ -7,7 +7,7 @@ Please join our [Discord Server](https://discord.gg/tvDXKZSzqd) and post a messa
 2. How many users do you expect to use your Service?
 3. How many requests per Week do you expect to send?
 4. Additional Information about your Service (e.g. Features, Security measures, Data Collection, ...)
-5. The Domain/IP, you're planning to use in order to send Requests
+5. The Domain/IP you're planning to use in order to send Requests
 
 # Usage
 This API Builds on top of each Request, so if you've used the `search` request, use the *same* Keyword (not the selected Anime title) as your Input in the `episodes` request.
