@@ -26,7 +26,8 @@ URL: ```/search/:title```
 
 Input Types: 
 
-      :title `String`
+      :title
+            type: String
       
 Response: `Array`
 
@@ -41,9 +42,11 @@ URL: ```/search/:title/:index```
 
 Input Types: 
 
-      :title `String`
+      :title
+            type: String
       
-      :index `Integer`
+      :index
+            type: Integer
       
 Response: `Array`
 
@@ -58,11 +61,14 @@ URL: ```/search/:title/:index/episodes/:episode```
 
 Input Types: 
 
-      :title `String`
+      :title
+            type: String
       
-      :index `Integer`
+      :index
+            type: Integer
       
-      :episode `Integer`
+      :episode
+            type: Integer
       
 Response: `String`
 
