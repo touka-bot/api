@@ -10,6 +10,9 @@ Please join our [Discord Server]() and post a message containing the following I
 5. The Domain/IP, you're planning to use in order to send Requests
 
 # Usage
+This API Builds on top of each Request, so if you've used the `search` request, use the *same* Keyword (not the selected Anime title) as your Input in the `episodes` request.
+The selected Title should be selected through the `:index` Value and should be the Index of the Array containing the `search` response.
+The same applies for the `videourl` request.
 ## Response Type
 
 All Responses from the API are plain `text` responses.
