@@ -7,6 +7,7 @@ Please join our [Discord Server]() and post a message containing the following I
 2. How many users do you expect to use your Service?
 3. How many requests per Week do you expect to send?
 4. Additional Information about your Service (e.g. Features, Security measures, Data Collection, ...)
+5. The Domain/IP, you're planning to use in order to send Requests
 
 # Usage
 ## Response Type
