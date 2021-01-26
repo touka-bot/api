@@ -2,7 +2,7 @@
 Unofficial 4anime API.
 
 # How to get Access
-Please join our [Discord Server]() and post a message containing the following Information into #api-access:
+Please join our [Discord Server](https://discord.gg/tvDXKZSzqd) and post a message containing the following Information into #api-access:
 1. What do you plan to do with the API?
 2. How many users do you expect to use your Service?
 3. How many requests per Week do you expect to send?
