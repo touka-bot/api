@@ -30,6 +30,8 @@ Input Types:
       
 Response: `Array`
 
+Error Case ` "" `
+
 Example: `[ "https://asite.to/title1", "https://asite.to/title2", "https://asite.to/title3" ]`
 
 
@@ -44,6 +46,8 @@ Input Types:
       :index `Integer`
       
 Response: `Array`
+
+Error Case ` "" `
 
 Example: `[ "https://asite.to/episode1", "https://asite.to/episode2", "https://asite.to/episode3" ]`
 
@@ -61,5 +65,7 @@ Input Types:
       :episode `Integer`
       
 Response: `String`
+
+Error Case ` "No Video found" || "" `
 
 Example: `https://asite.to/video.mp4`
